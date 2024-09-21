@@ -1,0 +1,48 @@
+.env
+firebase-adminsdk.json
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+
+# Firebase
+config/firebase-adminsdk.json
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pm2/logs/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Dependency directories
+bower_components/
+
+# Build outputs
+dist/
+build/
+
+# Miscellaneous
+*.local
+*.env.local
+coverage/
+
+# Cloudinary specific (optional if required)
+cloudinary_upload
